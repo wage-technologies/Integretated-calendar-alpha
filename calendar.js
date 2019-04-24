@@ -6,66 +6,88 @@ $(document).ready(function() {
       center: 'title',
       right: 'month,basicWeek,basicDay'
     },
-    defaultDate: '2019-04-12',
+    defaultDate: '2019-06-03',
+    //defaultView: 'week',
     navLinks: true, // can click day/week names to navigate views
-    editable: true,
+    editable: false,
     eventLimit: true, // allow "more" link when too many events
     events: [
-      {
-        title: 'All Day Event',
-        start: '2019-04-19'
-      },
-      {
-        title: 'Long Event',
-        start: '2019-04-07',
-        end: '2019-04-10'
-      },
-      {
-        id: 999,
-        title: 'Wage is Cool',
-        start: '2019-04-09T16:00:00'
-      },
-      {
-        id: 999,
-        title: 'Wage Party',
-        start: '2019-04-16T16:00:00'
-      },
-      {
-        title: 'Conference',
-        start: '2019-04-11',
-        end: '2019-04-13'
-      },
-      {
-        title: 'Meeting',
-        start: '2019-05-12T10:30:00',
-        end: '2019-05-12T12:30:00'
-      },
-      {
-        title: 'Lunch',
-        start: '2019-04-12T12:00:00'
-      },
-      {
-        title: 'Meeting',
-        start: '2019-04-12T14:30:00'
-      },
-      {
-        title: 'Happy Hour',
-        start: '2019-04-12T17:30:00'
-      },
-      {
-        title: 'Dinner',
-        start: '2019-04-12T20:00:00'
-      },
-      {
-        title: 'Birthday Party',
-        start: '2019-04-13T07:00:00'
-      },
-      {
-        title: 'Click for Google',
-        url: 'https://google.com/',
-        start: '2019-04-28'
-      }
+        {
+          title: 'Morning Shift',
+          start: '2019-06-03T08:00:00',
+          end: '2019-06-03T12:00:00'
+        },
+        {
+          title: 'Afternoon Shift',
+          start: '2019-06-03T12:00:00',
+          end: '2019-06-03T16:00:00'
+        },
+        {
+          title: 'Evening Shift',
+          start: '2019-06-03T16:00:00',
+          end: '2019-06-03T20:00:00'
+        },
+        {
+          title: 'Morning Shift',
+          start: '2019-06-04T08:00:00',
+          end: '2019-06-04T12:00:00'
+        },
+        {
+          title: 'Afternoon Shift',
+          start: '2019-06-04T12:00:00',
+          end: '2019-06-04T16:00:00'
+        },
+        {
+          title: 'Evening Shift',
+          start: '2019-06-04T16:00:00',
+          end: '2019-06-04T20:00:00'
+        },
+        {
+          title: 'Morning Shift',
+          start: '2019-06-05T08:00:00',
+          end: '2019-06-05T12:00:00'
+        },
+        {
+          title: 'Afternoon Shift',
+          start: '2019-06-05T12:00:00',
+          end: '2019-06-05T16:00:00'
+        },
+        {
+          title: 'Evening Shift',
+          start: '2019-06-05T16:00:00',
+          end: '2019-06-05T20:00:00'
+        },
+        {
+          title: 'Morning Shift',
+          start: '2019-06-06T08:00:00',
+          end: '2019-06-06T12:00:00'
+        },
+        {
+          title: 'Afternoon Shift',
+          start: '2019-06-06T12:00:00',
+          end: '2019-06-06T16:00:00'
+        },
+        {
+          title: 'Evening Shift',
+          start: '2019-06-06T16:00:00',
+          end: '2019-06-06T20:00:00'
+        },
+        {
+          title: 'Morning Shift',
+          start: '2019-06-07T08:00:00',
+          end: '2019-06-07T12:00:00'
+        },
+        {
+          title: 'Afternoon Shift',
+          start: '2019-06-07T12:00:00',
+          end: '2019-06-07T16:00:00'
+        },
+        {
+          title: 'Evening Shift',
+          start: '2019-06-07T16:00:00',
+          end: '2019-06-07T20:00:00'
+        }
     ]
-  });
 
-});
+    });
+  });
