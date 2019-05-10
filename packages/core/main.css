@@ -229,7 +229,7 @@ temporary rendered events).
 
 .fc-event,
 .fc-event-dot {
-  background-color: #3788d8;
+  background-color: #3788d8;  /* #228B22; */
   /* default BACKGROUND color */ }
 
 .fc-event,

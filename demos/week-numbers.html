@@ -116,7 +116,20 @@
   });
 
 </script>
+
+<script>
+    document.getElementById('calendar').addEventListener("click", function() {
+      // document.getElementById('calendar').events.backgroundColor = "#228B22";
+      var node = document.createElement("p");                 // Create a <li> node
+      var textnode = document.createTextNode("Water");         // Create a text node
+      node.appendChild(textnode);
+      document.getElementById('calendar').appendChild(node);
+      //still not working- trying to have something register on click
+    }
+  );
+</script>
 <style>
+
 
   body {
     margin: 40px 10px;
